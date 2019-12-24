@@ -1,0 +1,35 @@
+{
+  "name": "Stock_Exchange_UEL",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cross-env NODE_PATH=./src nodemon ./bin/www ",
+    "dev": "cross-env NODE_PATH=./src IS_DEV=DEV nodemon ./bin/www "
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "cross-env": "^5.2.0",
+    "debug": "~2.6.9",
+    "dotenv": "^8.0.0",
+    "ejs": "~2.5.7",
+    "excel4node": "^1.7.2",
+    "express": "~4.16.0",
+    "express-session": "^1.15.6",
+    "http-errors": "~1.6.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.15",
+    "morgan": "~1.9.0",
+    "multer": "^1.4.1",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.2.1",
+    "nodemon": "^1.18.10",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "randomstring": "^1.1.5",
+    "socketio": "^1.0.0"
+  }
+}
